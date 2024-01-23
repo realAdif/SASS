@@ -1,9 +1,10 @@
+import Navbar from './components/Navbar';
 import './styles/style.scss';
 function App() {
   return (
-    <>
-      <h1>Hello world</h1>
-    </>
+    <main className="container">
+      <Navbar />
+    </main>
   );
 }
 
